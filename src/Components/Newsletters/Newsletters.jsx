@@ -2,7 +2,7 @@ import React from 'react';
 import news from '../../assets/Isolation_Mode.png';
 const Newsletters = () => {
   return (
-    <div className="lg:max-w-6xl mx-auto my-10 grid lg:grid-cols-2 grid-cols-1 gap-10 items-center">
+    <div className="lg:max-w-6xl w-11/12  mx-auto my-10 grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2 gap-10 items-center ">
       <div>
         <img src={news} alt="" />
       </div>

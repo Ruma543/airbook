@@ -10,7 +10,7 @@ import TravelBlog from './Components/TravelBlog/TravelBlog';
 
 function App() {
   return (
-    <div>
+    <div className="font-primary">
       <Navbar></Navbar>
       <Banner></Banner>
       <Featured></Featured>

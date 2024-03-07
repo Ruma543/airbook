@@ -5,9 +5,9 @@ import { FaFacebookF, FaLinkedinIn, FaYoutube } from 'react-icons/fa';
 import { GrLocation } from 'react-icons/gr';
 const Footer = () => {
   return (
-    <div className="bg-blue-600 py-10">
-      <div className="lg:max-w-6xl mx-auto ">
-        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
+    <div className="bg-blue-600 py-10 ">
+      <div className="lg:max-w-6xl mx-auto w-11/12  ">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-2 gap-5">
           <div className="text-white space-y-3">
             <h3 className="font-semibold text-lg">Address</h3>
             <h3 className="text-base">
@@ -44,14 +44,14 @@ const Footer = () => {
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-6">
           <div className="flex  items-center gap-3">
             <img src={air} alt="" />
-            <a className=" text-2xl text-yellow-700 font-bold">
+            <a className=" text-3xl text-yellow-700 font-bold">
               Air<span className="text-white font-semibold">Book</span>
             </a>
           </div>
           <div>
             <h3 className="text-white text-xs">@ Copyright AIRBOOK</h3>
           </div>
-          <div className="flex justify-center gap-4 items-center text-3xl text-white">
+          <div className="flex lg:justify-center gap-4 items-center text-3xl text-white">
             <FaYoutube />
             <FaFacebookF />
             <FaLinkedinIn />

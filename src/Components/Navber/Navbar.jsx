@@ -3,7 +3,7 @@ import air from '../../assets/Singapore Airlines.png';
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 w-11/12 mx-auto">
+    <div className=" navbar bg-base-100 w-11/12 mx-auto font-primary ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
         <div className="flex justify-center items-center gap-3">
           <img src={air} alt="" />
-          <a className=" text-2xl text-yellow-700 font-bold">
+          <a className=" text-3xl text-yellow-700 font-bold">
             Air<span className="text-blue-700 font-semibold">Book</span>
           </a>
         </div>
