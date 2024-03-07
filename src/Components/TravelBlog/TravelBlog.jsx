@@ -10,7 +10,7 @@ const TravelBlog = () => {
   return (
     <div className="lg:max-w-6xl w-full mx-auto my-10 ">
       <Title subTitle="Travel Blog"></Title>
-      <div className="grid w-11/12 mx-auto lg:grid-cols-3 md:grid-cols-3 grid-cols-1  gap-5">
+      <div className="grid lg:w-full w-11/12 mx-auto lg:grid-cols-3 md:grid-cols-3 grid-cols-1  gap-5">
         <div className="card bg-white shadow-xl drop-shadow-xl">
           <figure>
             <img src={img1} alt="Shoes" />
@@ -22,8 +22,8 @@ const TravelBlog = () => {
               </h3>
               <h3 className="font-semibold">16 septembar 23</h3>
             </div>
-            <div>
-              <p className="lg:text-xl text-xl md:text-base font-bold my-3">
+            <div className="lg:h-25 md:h-30 my-3">
+              <p className="lg:text-xl text-xl md:text-base font-bold ">
                 Embracing the Digital Nomad Lifestyle the Digital Nomad thr...
               </p>
             </div>
@@ -60,8 +60,8 @@ const TravelBlog = () => {
               <h3 className="text-yellow-500 font-semibold">Historical</h3>
               <h3 className="font-semibold">14 septembar 23</h3>
             </div>
-            <div>
-              <p className="lg:text-xl text-xl md:text-base font-bold my-3">
+            <div className="lg:h-25 md:h-30 my-3">
+              <p className="lg:text-xl  text-xl md:text-base font-bold my-3">
                 Historical Journeys: Stepping Back in Time Through Travel
               </p>
             </div>
@@ -98,8 +98,8 @@ const TravelBlog = () => {
               <h3 className="text-yellow-500 font-semibold">Tourism</h3>
               <h3 className="font-semibold">10 septembar 23</h3>
             </div>
-            <div>
-              <p className="lg:text-xl text-xl md:text-base font-bold my-3">
+            <div className="lg:h-25 md:h-30 my-3">
+              <p className="lg:text-xl  text-xl md:text-base font-bold ">
                 Sustainable Tourism: Preserving the Planet While Seeing It All
               </p>
             </div>

@@ -9,7 +9,7 @@ const Deals = () => {
   return (
     <div className="lg:max-w-6xl w-full mx-auto my-10 ">
       <Title subTitle="Deals and Offers"></Title>
-      <div className="grid  w-11/12 mx-auto lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-4">
+      <div className="grid  lg:w-full w-11/12 mx-auto lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-4">
         <div className=" bg-white shadow-xl rounded-lg drop-shadow-lg flex items-center gap-x-3 ">
           <div className="rounded-lg w-full h-full">
             <img className=" w-full h-full " src={offer} alt="offer" />

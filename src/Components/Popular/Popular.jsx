@@ -12,7 +12,7 @@ const Popular = () => {
   return (
     <div className="lg:max-w-6xl w-full mx-auto my-10 ">
       <Title subTitle="Popular Airlines"></Title>
-      <div className="grid  w-11/12 mx-auto lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:gap-x-10 lg:gap-y-0">
+      <div className="grid lg:w-full  w-11/12 mx-auto lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:gap-x-10 lg:gap-y-0">
         <div className="flex items-center gap-5 py-4 pr-7">
           <img src={bba} className="" alt="" />
           <div className="">

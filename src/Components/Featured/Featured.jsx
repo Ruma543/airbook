@@ -8,7 +8,7 @@ const Featured = () => {
   return (
     <div className="lg:max-w-6xl w-full mx-auto my-10 ">
       <Title subTitle="Featured Destinations"></Title>
-      <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-4 w-11/12 mx-auto">
+      <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 gap-4 lg:w-full w-11/12 mx-auto">
         <div className="card bg-white shadow-xl drop-shadow-xl">
           <figure className="h-56 w-full">
             <img src={feature1} alt="feature" className="rounded-xl h-full" />
